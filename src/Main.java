@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String who = "boss";
+        System.out.println("Hello world! @" + who);
     }
 }
