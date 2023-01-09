@@ -3,6 +3,6 @@ import java.util.Map;
 
 public class Classifica {
     //maps each team to its points
-    Map<Squadra,Integer> mappaClassifica = new HashMap<>();
+    Map<String,Integer> mappaClassifica = new HashMap<>();
 
 }
