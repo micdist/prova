@@ -31,12 +31,16 @@ public class Main {
 
         //extracts calciatore with eol
         String calciatoriEstratti[] = esito.split("\\r?\\n");
-        List<Calciatore> listaCalciatori  = new ArrayList<>();
-        try{
-            for (int i=0; i< calciatoriEstratti.length; i++){
-                String calciatoreStringa =
-            }
+        for (String calciatore : calciatoriEstratti){
+            System.out.println(calciatore);
         }
+
+        List<Calciatore> listaCalciatori  = new ArrayList<>();
+        /*try{
+            for (int i=0; i< calciatoriEstratti.length; i++){
+                String calciatoreStringa = calciatoriEstratti.
+            }
+        }*/
 
 
 
